@@ -1,0 +1,57 @@
+STUDENT GRADE CALCULATOR - TEST CASES
+=====================================
+Grading logic: A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59
+
+A. VALID INPUT (grade boundaries)
+---------------------------------
+No. | Marks | Expected Grade | Actual | Result
+ 1  | 100   | A              | A      | PASS
+ 2  | 95    | A              | A      | PASS
+ 3  | 90    | A              | A      | PASS
+ 4  | 89    | B              | B      | PASS
+ 5  | 85    | B              | B      | PASS
+ 6  | 80    | B              | B      | PASS
+ 7  | 79    | C              | C      | PASS
+ 8  | 75    | C              | C      | PASS
+ 9  | 70    | C              | C      | PASS
+10  | 69    | D              | D      | PASS
+11  | 65    | D              | D      | PASS
+12  | 60    | D              | D      | PASS
+13  | 59    | F              | F      | PASS
+14  | 40    | F              | F      | PASS
+15  | 0     | F              | F      | PASS
+
+B. INVALID INPUT (handled by while loop - program re-asks)
+-----------------------------------------------------------
+No. | Input   | Expected Behaviour                           | Result
+16  | 150     | "Marks must be between 0 and 100" -> re-ask  | PASS
+17  | -5      | "Marks must be between 0 and 100" -> re-ask  | PASS
+18  | abc     | "Please enter a number" -> re-ask            | PASS
+19  | (blank) | "Please enter a number" -> re-ask            | PASS
+20  | (blank name) | "Name cannot be empty" -> re-ask        | PASS
+
+C. SAMPLE RUN
+-------------
+Enter student name: Priya
+Enter marks (0-100): 85
+
+RESULT FOR PRIYA:
+Marks: 85/100
+Grade: B
+Message: Very Good! Keep it up!
+
+D. SAMPLE RUN WITH INVALID INPUTS
+---------------------------------
+Enter student name: Rahul
+Enter marks (0-100): abc
+Invalid input! Please enter a number (e.g. 85).
+Enter marks (0-100): 150
+Invalid marks! Marks must be between 0 and 100.
+Enter marks (0-100): -5
+Invalid marks! Marks must be between 0 and 100.
+Enter marks (0-100): 42
+
+RESULT FOR RAHUL:
+Marks: 42/100
+Grade: F
+Message: Don't give up! Review the topics and try again, you've got this!
