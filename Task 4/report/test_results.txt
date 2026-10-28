@@ -1,0 +1,23 @@
+test_average_order (test_main.TestAnalysis.test_average_order) ... ok
+test_best_product_and_region (test_main.TestAnalysis.test_best_product_and_region) ... ok
+test_monthly_revenue (test_main.TestAnalysis.test_monthly_revenue) ... ok
+test_total_revenue (test_main.TestAnalysis.test_total_revenue) ... ok
+test_total_units (test_main.TestAnalysis.test_total_units) ... ok
+test_all_rows_invalid_raises (test_main.TestCleaning.test_all_rows_invalid_raises) ... ok
+test_bad_date_row_dropped (test_main.TestCleaning.test_bad_date_row_dropped) ... ok
+test_duplicates_removed (test_main.TestCleaning.test_duplicates_removed) ... ok
+test_missing_quantity_row_dropped (test_main.TestCleaning.test_missing_quantity_row_dropped) ... ok
+test_negative_quantity_row_dropped (test_main.TestCleaning.test_negative_quantity_row_dropped) ... ok
+test_text_is_tidied (test_main.TestCleaning.test_text_is_tidied) ... ok
+test_wrong_total_sales_is_corrected (test_main.TestCleaning.test_wrong_total_sales_is_corrected) ... ok
+test_empty_file_raises_data_error (test_main.TestLoading.test_empty_file_raises_data_error) ... ok
+test_missing_file_raises_data_error (test_main.TestLoading.test_missing_file_raises_data_error) ... ok
+test_real_dataset_loads (test_main.TestLoading.test_real_dataset_loads) ... ok
+test_known_totals (test_main.TestRealDataset.test_known_totals) ... ok
+test_missing_column_detected (test_main.TestValidation.test_missing_column_detected) ... ok
+test_valid_columns_pass (test_main.TestValidation.test_valid_columns_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.253s
+
+OK

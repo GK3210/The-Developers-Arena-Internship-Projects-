@@ -1,0 +1,28 @@
+Step 1/6  Loading data ...
+          100 rows, 7 columns loaded
+Step 2/6  Validating structure ...
+Step 3/6  Cleaning data ...
+          missing=0, duplicates=0, Total_Sales fixed=0, rows kept=100
+Step 4/6  Analysing ...
+          Total revenue : ₹12,365,048.00
+          Top product   : Laptop
+          Top region    : North
+Step 5/6  Creating charts ...
+          saved visualizations/1_revenue_by_product_bar.png
+          saved visualizations/2_revenue_share_by_region_pie.png
+          saved visualizations/3_monthly_revenue_line.png
+          saved visualizations/4_region_product_stacked_bar.png
+Step 6/6  Writing report ...
+          saved report/analysis_report.md
+          saved report/analysis_report.pdf
+
+INSIGHTS
+  1. Laptop is the top product. It earns ₹3,889,210.00 (31.5% of revenue) from 24 orders. Its lead comes from volume: customers buy 5.7 units per order, the highest of any product, not from a higher price (average price ₹27,651.50).
+  2. Tablet gets the most orders (26) but ranks #2 by revenue, so order count alone does not show which product earns the most.
+  3. Monitor is the weakest product at 10.9% of revenue. It is the best candidate for a promotion or bundle offer.
+  4. North is the strongest region (32.2%) and West is the weakest (17.2%). The gap is ₹1,859,713.00.
+  5. 2024-03 was the best month with ₹4,485,006.00.
+  6. 2024-04 looks like a drop but is incomplete. Data covers only 9 days of that month. Its average order value (₹122,607.56) is the fairer figure to compare.
+  7. Order values vary a lot. The largest order is about 57x the smallest, and the average (₹123,650.48) is above the median (₹97,955.50), so a few big orders pull the average up.
+
+Done.
